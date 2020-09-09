@@ -1,16 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
 .container {
   display: flex;
   justify-content: center;
 }
 
 .cards {
-  flex: 0 1 630px;
-  display: grid;
+  flex-basis: 690px;
+  display: flex;
+  flex-wrap: wrap;
+  /* display: grid;
+  width: 630px;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-gap: 15px;
+  grid-gap: 15px; */
 }
 
+/* Style the cards */
 .card {
+  flex: 1 1 200px;
+  margin: 7px;
   display: flex;
   justify-content: center;
   align-items: center;
