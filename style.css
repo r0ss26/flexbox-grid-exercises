@@ -8,7 +8,7 @@
 }
 
 .cards {
-  flex-basis: 690px;
+  flex-basis: 890px;
   display: flex;
   flex-wrap: wrap;
   /* display: grid;
